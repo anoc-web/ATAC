@@ -19,7 +19,18 @@
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        h1 { color: #333; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h1 img {
+            height: 40px;
+            width: auto;
+        }
         .info { margin: 20px 0; }
         .label { font-weight: bold; color: #666; }
         .address {
@@ -35,7 +46,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>🚀 ATAC Token</h1>
+        <h1>
+            <img src="https://raw.githubusercontent.com/anoc-web/atac/main/logo.svg" alt="ATAC Logo">
+            ATAC Token
+        </h1>
         
         <div class="info">
             <p><span class="label">Nombre:</span> ATAC</p>
@@ -55,7 +69,6 @@
         
         <div class="info">
             <p><span class="label">Contacto:</span><br>
-            <!-- Reemplazá con tu email - aunque sea Gmail, ponelo acá -->
             <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a>
         </p></div>
         
